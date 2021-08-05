@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { UseEffect } from './components/02-UseEffect/UseEffect';
- 
+import MultipleCustomHooks from './components/03-useFetch/MultipleCustomHooks';
+
 //import HooksApp from './HooksApp';
 
 ReactDOM.render(
-    <UseEffect />,
+    <MultipleCustomHooks />,
   document.getElementById('root')
 );
 

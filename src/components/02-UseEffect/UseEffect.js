@@ -1,22 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './effects.css';
+import { useForm } from './hooks/useForm';
 import { Message } from './Message.jsx';
 
-
 export const UseEffect = () => {
-  const [formState, setFormState] = useState({
+  const [formValues, handleInputChange, handleOnSubmit] = useForm({
     name: '',
     email: '',
   });
 
-  const { name, email } = formState;
-  
-  const handleInputChange = ({ target }) => {
-    setFormState({ ...formState, [target.name]: target.value });
-  };
+  const { name, email } = formValues;
 
   return (
-    <>
+    <form onSubmit={handleOnSubmit}>
       <h1>Simple Form - useEffect</h1>
       <hr />
       <section className='form-group'>
@@ -38,9 +34,12 @@ export const UseEffect = () => {
           onChange={handleInputChange}
         />
       </section>
-    
-      {(name === 'Alfonso') && <Message />}
 
-    </>
+      {name === 'Alfonso' && <Message />}
+
+      <button  type='submit' className='btn btn-primary'>
+        Send
+      </button>
+    </form>
   );
 };
