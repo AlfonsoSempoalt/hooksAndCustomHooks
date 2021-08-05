@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HooksApp from './HooksApp';
+import { UseEffect } from './components/02-UseEffect/UseEffect';
+ 
+//import HooksApp from './HooksApp';
 
 ReactDOM.render(
-    <HooksApp />,
+    <UseEffect />,
   document.getElementById('root')
 );
 

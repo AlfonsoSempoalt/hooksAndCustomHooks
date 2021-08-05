@@ -7,7 +7,7 @@ const HooksApp = props => {
          <h1>Hello world</h1>   
         </>
     )
-}
+} 
 
 HooksApp.propTypes = {
 
