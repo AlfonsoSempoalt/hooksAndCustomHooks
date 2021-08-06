@@ -8,7 +8,8 @@ export const useFetch = (url) => {
   });
 
   useEffect(() => {
-      fetch(url)
+    setState({ data: null, loading: true, error: null });
+    fetch(url)
       .then((response) => response.json())
       .then((data) => {
         setState({ loading: false, data: data, error: null });

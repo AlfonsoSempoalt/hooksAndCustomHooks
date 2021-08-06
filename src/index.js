@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MultipleCustomHooks from './components/03-useFetch/MultipleCustomHooks';
+import FocusScreen from './components/04-useRef/FocusScreen';
 
 //import HooksApp from './HooksApp';
 
 ReactDOM.render(
-    <MultipleCustomHooks />,
+    <FocusScreen />,
   document.getElementById('root')
 );
 
