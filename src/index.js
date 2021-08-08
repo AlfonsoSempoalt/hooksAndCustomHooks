@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LayoutEffect from './components/05-useLayoutEffect/LayoutEffect';
-
+import UseCallbackHook from './components/06-memos/UseCallbackHook';
 //import HooksApp from './HooksApp';
 
 ReactDOM.render(
-    <LayoutEffect />,
+    <UseCallbackHook />,
+
   document.getElementById('root')
 );
 
