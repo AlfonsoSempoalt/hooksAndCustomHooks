@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UseCallbackHook from './components/06-memos/UseCallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 //import HooksApp from './HooksApp';
 
 ReactDOM.render(
-    <UseCallbackHook />,
-
-  document.getElementById('root')
-);
-
+  <Padre />,
+   document.getElementById('root'));
