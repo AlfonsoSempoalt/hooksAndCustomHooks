@@ -1,9 +1,7 @@
-/* import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { Padre } from './components/07-tarea-memo/Padre';
+import TodoApp from './components/08-useReducer/TodoApp';
 //import HooksApp from './HooksApp';
 
-ReactDOM.render(
-  <Padre />,
-   document.getElementById('root')); */
-import './components/08-useReducer/IntroReducer.jsx';
+ReactDOM.render(<TodoApp />,
+                document.getElementById('root'));

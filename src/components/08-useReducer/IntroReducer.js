@@ -12,7 +12,7 @@ const initialState = [
 ];
 
 const todoReducer = (state = initialState, action) => {
-    if (action.type === 'add') {
+    if (action?.type === 'add') {
         return [...state, ...action.payload];
     }
   return state;

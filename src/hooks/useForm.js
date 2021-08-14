@@ -7,12 +7,16 @@ export const useForm = (initialState = {}) => {
     setValues({ ...formValues, [target.name]: target.value });
   };
 
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
-    console.log(formValues);
+  const resetForm = () => {
+    setValues(initialState);
   };
 
-  return [formValues,
-        handleInputChange,
-        handleOnSubmit];
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+  };
+
+  return [ formValues, 
+           handleInputChange,
+           resetForm,
+           handleOnSubmit ];
 };
