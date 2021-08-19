@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests to MultipleCustomHooks.jsx should match with the snapshot 1`] = `
+<Fragment>
+  <h1>
+    Custom hooks
+  </h1>
+  <section
+    className="alert alert-info text-center"
+  >
+    loading...
+  </section>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Next
+  </button>
+</Fragment>
+`;
