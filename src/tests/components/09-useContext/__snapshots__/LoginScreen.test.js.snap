@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests to <LoginScreen> should match with the snapshot 1`] = `
+Array [
+  <h1>
+    LoginScreen
+  </h1>,
+  <hr />,
+  <button
+    className="btn btn-primary mx-5"
+    onClick={[Function]}
+  >
+    Log in
+  </button>,
+]
+`;

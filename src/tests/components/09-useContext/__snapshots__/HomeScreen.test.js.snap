@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests to <HomeScreen /> should match with the snapshot 1`] = `
+Array [
+  <h1>
+    Home page
+  </h1>,
+  <hr />,
+  <pre>
+    {"name":"Alfonso","email":"alfonso@gmail.com"}
+  </pre>,
+]
+`;

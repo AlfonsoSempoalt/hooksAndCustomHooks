@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests to <TodoListItem /> should match with the snapshot 1`] = `
+<Fragment>
+  <li
+    className="list-group-item text-center"
+    key="1"
+  >
+    <p
+      className="false"
+      onClick={[Function]}
+    >
+      1
+       
+      aprender react
+    </p>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </li>
+</Fragment>
+`;

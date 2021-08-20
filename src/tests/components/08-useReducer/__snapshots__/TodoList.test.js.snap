@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Name of the group should match with the snapshot 1`] = `
+<Fragment>
+  <ul
+    className="list-group list-group-flush"
+  >
+    <TodoListItem
+      handleOnDelete={[MockFunction]}
+      handleToggle={[MockFunction]}
+      index={0}
+      key="1"
+      todo={
+        Object {
+          "desc": "aprender react",
+          "done": false,
+          "id": 1,
+        }
+      }
+    />
+    <TodoListItem
+      handleOnDelete={[MockFunction]}
+      handleToggle={[MockFunction]}
+      index={1}
+      key="2"
+      todo={
+        Object {
+          "desc": "hola",
+          "done": false,
+          "id": 2,
+        }
+      }
+    />
+  </ul>
+</Fragment>
+`;

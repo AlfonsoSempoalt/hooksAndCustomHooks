@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Name of the group should match with the snapshot 1`] = `
+<section>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <ul>
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        NavBar
+      </a>
+      <section
+        className="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+        <div
+          className="navbar-nav"
+        >
+          <li>
+            <a
+              aria-current="page"
+              className="nav-link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="nav-link"
+              href="/about"
+              onClick={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="nav-link"
+              href="/login"
+              onClick={[Function]}
+            >
+              Log in
+            </a>
+          </li>
+        </div>
+      </section>
+    </ul>
+  </nav>
+  Array [
+    <h1>
+      Home page
+    </h1>,
+    <hr />,
+    <pre>
+      {"id":123,"name":"Alfonso Sempoalt"}
+    </pre>,
+  ]
+</section>
+`;
